@@ -3,137 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>SIGINT 2013</title>
-	<style type="text/css">
-		header {
-			margin: 0 auto;
-			width: 80%;
-			display: block;
-		}
-		header div#logo {
-			float: center;
-			padding-left: 10px;
-			margin: auto auto -10px auto;
-			text-align: center;
-		}
-		header nav {
-			clear:both;
-			float: center;
-			margin: 0 auto 30px auto;
-			text-align: center;
-			vertical-align: bottom;
-		}
-		header nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-		header nav ul li {
-			display: inline;
-			padding-left: 7px;
-		}
-		header nav ul li:after {
-			font-size: 130%;
-			padding-left: 6px;
-			content: " |";
-		}
-		header nav ul li.last:after {
-			content: "";
-		}
-		header nav ul li a {
-			font-size: 120%;
-		}
-		header nav ul li.selected a {
-			color: #F06;
-			border: none;
-		}
-		h1 {
-			margin-top: -20px;
-			text-align: center;
-		}
-		h2, h3.center {
-			margin-top: -20px;
-			text-align: center;
-		}
-		h4.header {
-			text-align: center;
-			margin-top: -10px;
-			margin-bottom: 0;
-		}
-		body {
-			background: url({{STATIC_URL}}/img/repeatbg.png) #231f20 repeat-y 60% 29px;
-			color: white;
-			font-family: 'Dosis', sans-serif;
-			font-size: 20px;
-			letter-spacing: .03em;
-
-			line-height: 1.5;
-		}
-		p {
-			text-align: justify;
-		}
-		p.small {
-			font-size: small;
-		}
-		div#content {
-			clear: both;
-			margin: auto;
-			width: 33em;
-			word-spacing: 3pt;
-			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-		}
-		strong {
-			color: #F06;
-		}
-		em {
-			color: #e4e06d;
-			text-shadow: none;
-		}
-		a {
-			color: #e4e06d;
-			text-shadow: none;
-			text-decoration: none;
-			border-bottom: 1px dotted #e4e06d;
-		}
-		a:hover {
-			text-decoration: none;
-			color: #F06;
-			border-bottom: 1px dotted #F06;
-		}
-		.inspiration li {
-			font-size: 80%;
-			line-height: 140%;
-			margin-bottom: 0.75em;
-		}
-		::selection {
-			background: #CCC;
-			color: #000;
-			text-shadow: none;
-		}
-		::-moz-selection {
-			background: #CCC;
-			color: #000;
-			text-shadow: none;
-		}
-		table.tickets {
-			border-collapse: collapse;
-			text-align: center;
-		}
-		table.tickets, table.tickets th, table.tickets td {
-			border: 1px solid gray;
-		}
-		table.tickets td {
-			padding: 10px;
-		}
-		table.tickets td.comment {
-			font-size: 90%;
-		}
-		/*
-			This would not have been possible without the help of certain
-			awesome people whom I'll list here in no particular order:
-			flederrattie, erlehmann, sva, lilafisch, towo, mm, amp, zakx.
-			Thank you! --The SIGINT Orga
-		*/
-	</style>
+	<link rel="stylesheet" type="text/css" href="{{STATIC_URL}}/css/style.css">
 	<link href='//fonts.googleapis.com/css?family=Dosis:400&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 	<script type="text/javascript">
 		function replace(){
@@ -154,11 +24,11 @@
 			<h4 class="header">July 5<small>th</small>-7<smalL>th</small>, KOMED im Mediapark, Cologne, Germany</h4>
 			<ul>
 				<li class="{%block nav-conference%}{%endblock%}"><a href="/">Conference</a></li>
-				<li class="{%block nav-faq%}{%endblock%}"><a href="/faq.html">FAQ</a></li>
-				<li class="{%block nav-schedule%}{%endblock%}"><a href="">Schedule</a></li>
-				<li class="{%block nav-location%}{%endblock%}"><a href="">Location</a></li>
+				<li class="{%block nav-content%}{%endblock%}"><a href="/content.html">Content</a></li>
+				<li class="{%block nav-location%}{%endblock%}"><a href="/location.html">Location</a></li>
 				<li class="{%block nav-tickets%}{%endblock%}"><a href="/tickets.html">Tickets</a></li>
-				<li class="last {%block nav-contact%}{%endblock%}"><a href="">Contact</a></li>
+				<li class="{%block nav-faq%}{%endblock%}"><a href="/faq.html">FAQ</a></li>
+				<li class="last {%block nav-contact%}{%endblock%}"><a href="/contact.html">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
