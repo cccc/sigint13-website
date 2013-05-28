@@ -2,11 +2,13 @@ SIGINT13 public website
 =======================
 
 To set up a local development environment, do the following:
+
 0. If you haven't already, install virtualenv: ``pip install virtualenv``.
 1. Set up a virtualenv for this project and activate it:
    ```
    dev/$ virtualenv sigint13-website-env
    dev/$ . sigint13-website-env/bin/activate
+   (sigint13-website-env)dev/$
    ```
 2. Install python dependencies from requirements.txt
    ```
