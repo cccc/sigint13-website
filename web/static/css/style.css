@@ -125,6 +125,13 @@
 		td.comment {
 			font-size: 90%;
 		}
+    div.box img {
+      width: 100%;
+    }
+    div.box div.row img {
+      float: left;
+      width: 50%;
+    }
 		/*
 			This would not have been possible without the help of certain
 			awesome people whom I'll list here in no particular order:
