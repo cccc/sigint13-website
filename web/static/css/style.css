@@ -1,140 +1,140 @@
-		header {
-			margin: 0 auto;
-			width: 80%;
-			display: block;
-		}
-		header div#logo {
-			float: center;
-			padding-left: 10px;
-			margin: auto auto -10px auto;
-			text-align: center;
-		}
-		header nav {
-			clear:both;
-			float: center;
-			margin: 0 auto 30px auto;
-			text-align: center;
-			vertical-align: bottom;
-		}
-		header nav ul {
-			list-style-type: none;
-			margin: 0;
-			padding: 0;
-		}
-		header nav ul li {
-			display: inline;
-			padding-left: 7px;
-		}
-		header nav ul li:after {
-			font-size: 130%;
-			padding-left: 6px;
-			content: " |";
-		}
-		header nav ul li.last:after {
-			content: "";
-		}
-		header nav ul li a {
-			font-size: 120%;
-		}
-		header nav ul li.selected a {
-			color: #F06;
-			border: none;
-		}
-		h1 {
-			margin-top: -20px;
-			text-align: center;
-		}
-		h2, h3.center {
-			margin-top: -20px;
-			text-align: center;
-		}
-		h3.faq {
-			margin-bottom: -15px;
-		}
-		h4.header {
-			text-align: center;
-			margin-top: -10px;
-			margin-bottom: 0;
-		}
-		body {
-			background: url({{STATIC_URL}}/img/repeatbg.png) #231f20 repeat-y 60% 29px;
-			color: white;
-			font-family: 'Dosis', sans-serif;
-			font-size: 20px;
-			letter-spacing: .03em;
+header {
+  margin: 0 auto;
+  width: 80%;
+  display: block;
+}
+header div#logo {
+  float: center;
+  padding-left: 10px;
+  margin: auto auto -10px auto;
+  text-align: center;
+}
+header nav {
+  clear:both;
+  float: center;
+  margin: 0 auto 30px auto;
+  text-align: center;
+  vertical-align: bottom;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  padding-left: 7px;
+}
+header nav ul li:after {
+  font-size: 130%;
+  padding-left: 6px;
+  content: " |";
+}
+header nav ul li.last:after {
+  content: "";
+}
+header nav ul li a {
+  font-size: 120%;
+}
+header nav ul li.selected a {
+  color: #F06;
+  border: none;
+}
+h1 {
+  margin-top: -20px;
+  text-align: center;
+}
+h2, h3.center {
+  margin-top: -20px;
+  text-align: center;
+}
+h3.faq {
+  margin-bottom: -15px;
+}
+h4.header {
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 0;
+}
+body {
+  background: url({{STATIC_URL}}/img/repeatbg.png) #231f20 repeat-y 60% 29px;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 20px;
+  letter-spacing: .03em;
 
-			line-height: 1.5;
-		}
-		p {
-			text-align: justify;
-		}
-		p.small {
-			font-size: small;
-		}
-		div#content {
-			clear: both;
-			margin: auto;
-			width: 33em;
-			word-spacing: 3pt;
-			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-		}
-		strong {
-			color: #F06;
-		}
-		em {
-			color: #e4e06d;
-			text-shadow: none;
-		}
-		a {
-			color: #e4e06d;
-			text-shadow: none;
-			text-decoration: none;
-			border-bottom: 1px dotted #e4e06d;
-		}
-		a:hover {
-			text-decoration: none;
-			color: #F06;
-			border-bottom: 1px dotted #F06;
-		}
-		.inspiration li {
-			font-size: 80%;
-			line-height: 140%;
-			margin-bottom: 0.75em;
-		}
-		::selection {
-			background: #CCC;
-			color: #000;
-			text-shadow: none;
-		}
-		::-moz-selection {
-			background: #CCC;
-			color: #000;
-			text-shadow: none;
-		}
-		table {
-			border-collapse: collapse;
-			text-align: center;
-			width: 100%;
-		}
-		table, th, td {
-			border: 1px solid gray;
-		}
-		td {
-			padding: 10px;
-		}
-		td.comment {
-			font-size: 90%;
-		}
-    div.box img {
-      width: 100%;
-    }
-    div.box div.row img {
-      float: left;
-      width: 50%;
-    }
-		/*
-			This would not have been possible without the help of certain
-			awesome people whom I'll list here in no particular order:
-			flederrattie, erlehmann, sva, lilafisch, towo, mm, amp, zakx.
-			Thank you! --The SIGINT Orga
-		*/
+  line-height: 1.5;
+}
+p {
+  text-align: justify;
+}
+p.small {
+  font-size: small;
+}
+div#content {
+  clear: both;
+  margin: auto;
+  width: 33em;
+  word-spacing: 3pt;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+strong {
+  color: #F06;
+}
+em {
+  color: #e4e06d;
+  text-shadow: none;
+}
+a {
+  color: #e4e06d;
+  text-shadow: none;
+  text-decoration: none;
+  border-bottom: 1px dotted #e4e06d;
+}
+a:hover {
+  text-decoration: none;
+  color: #F06;
+  border-bottom: 1px dotted #F06;
+}
+.inspiration li {
+  font-size: 80%;
+  line-height: 140%;
+  margin-bottom: 0.75em;
+}
+::selection {
+  background: #CCC;
+  color: #000;
+  text-shadow: none;
+}
+::-moz-selection {
+  background: #CCC;
+  color: #000;
+  text-shadow: none;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+table, th, td {
+  border: 1px solid gray;
+}
+td {
+  padding: 10px;
+}
+td.comment {
+  font-size: 90%;
+}
+div.box img {
+  width: 100%;
+}
+div.box div.row img {
+  float: left;
+  width: 50%;
+}
+/*
+  This would not have been possible without the help of certain
+  awesome people whom I'll list here in no particular order:
+  flederrattie, erlehmann, sva, lilafisch, towo, mm, amp, zakx.
+  Thank you! --The SIGINT Orga
+*/
