@@ -41,20 +41,15 @@ header nav ul li.selected a {
   border: none;
 }
 h1 {
-  margin-top: -20px;
-  text-align: center;
-}
-h2, h3.center {
-  margin-top: -20px;
-  text-align: center;
-}
-h3.faq {
+  font-size: 1em;
   margin-bottom: -15px;
 }
-h4.header {
+h1.faq {
+  font-size: 1.15em;
+}
+h1#header {
   text-align: center;
-  margin-top: -10px;
-  margin-bottom: 0;
+  margin: 0;
 }
 body {
   background: url({{STATIC_URL}}/img/repeatbg.png) #231f20 repeat-y 60% 29px;
@@ -62,7 +57,6 @@ body {
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
   letter-spacing: .03em;
-
   line-height: 1.5;
 }
 p {
@@ -95,11 +89,6 @@ a:hover {
   text-decoration: none;
   color: #F06;
   border-bottom: 1px dotted #F06;
-}
-.inspiration li {
-  font-size: 80%;
-  line-height: 140%;
-  margin-bottom: 0.75em;
 }
 ::selection {
   background: #CCC;
