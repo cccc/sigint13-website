@@ -1,3 +1,4 @@
 web/build
+web/.build
 *.pyc
 .DS_Store
