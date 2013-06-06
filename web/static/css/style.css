@@ -52,7 +52,7 @@ h1#header {
   margin: 0;
 }
 body {
-  background: url({{STATIC_URL}}/img/repeatbg.png) #231f20 repeat-y 60% 29px;
+  background: url(/static/img/repeatbg.png) #231f20 repeat-y 60% 29px;
   color: white;
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
