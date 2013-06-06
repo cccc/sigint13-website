@@ -10,14 +10,14 @@ To set up a local development environment, do the following:
         dev/$ virtualenv sigint13-website-env
         dev/$ . sigint13-website-env/bin/activate
         (sigint13-website-env)dev/$
-        
+
 3. Install python dependencies from requirements.txt
 
         (sigint13-website-env)dev/sigint13-website$ pip install -U -r requirements.txt
 
 4. Change into the web/ subfolder and start Cactus. Cactus will now automatically rebuild and refresh your browser (on some OSes) as you change website content:
 
-         cd web && cactus server
+         cd web && cactus serve
 
 
 
